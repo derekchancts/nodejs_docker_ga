@@ -56,7 +56,7 @@ jobs:
           image: derekchancts100/testnodejsapp
           tags: ver2
           registry: docker.io
-          dockerfile: Dockerfile.ci
+          dockerfile: Dockerfile
           enableBuildKit: true
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }} 
